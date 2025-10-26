@@ -1,0 +1,35 @@
+# ==========================
+# 🚫 Python Environment & Build Files
+# ==========================
+.venv/
+.venv312/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.DS_Store
+
+# ==========================
+# 🧠 IDE & Editor Folders
+# ==========================
+.vscode/
+.idea/
+*.log
+
+# ==========================
+# 🔥 Firebase & Private Keys
+# ==========================
+# NEVER commit Firebase or Google Service Keys to GitHub
+backend/auth/serviceAccount.json
+firebase_config/serviceAccountKey.json
+
+# ==========================
+# ⚙️ Other Temporary / System Folders
+# ==========================
+*.bak
+*.tmp
+*.swp
+Thumbs.db
